@@ -10,7 +10,7 @@ function Header() {
   };
 
   return (
-    <header className="container sticky top-0 bg-customColor mx-auto md:flex justify-between py-2 max-width">
+    <header className="container bg-customColor mx-auto md:flex justify-between py-2 max-width">
       <div className="flex justify-between items-center py-2 md:py-10">
         <NavLink to="/">
           <img className="w-14" src={logos.logogradient} alt="logo" />
